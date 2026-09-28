@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="115%" r="75%">
+      <stop offset="0" stop-color="#F3DDB0" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#C9A46A" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" x2="1">
+      <stop offset="0" stop-color="#C9A46A" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFF1D2"/>
+      <stop offset="1" stop-color="#C9A46A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#E2C58F"/><stop offset="1" stop-color="#F7E7C4"/>
+    </linearGradient>
+    <style>
+      .t{font-family:-apple-system,"PingFang SC","Helvetica Neue","Microsoft YaHei",sans-serif}
+      .dust{animation:rise 9s linear infinite}
+      .d2{animation-delay:-3s}.d3{animation-delay:-6s}
+      @keyframes rise{from{transform:translateY(40px);opacity:0}20%{opacity:.9}to{transform:translateY(-320px);opacity:0}}
+      .rimline{animation:breathe 5s ease-in-out infinite}
+      @keyframes breathe{50%{opacity:.55}}
+      .fade{animation:in 1.6s ease-out both}.f2{animation-delay:.4s}.f3{animation-delay:.8s}
+      @keyframes in{from{opacity:0;transform:translateY(10px)}}
+      .caret{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="#050505"/>
+  <rect width="1200" height="360" rx="22" fill="url(#glow)"/>
+  <ellipse cx="600" cy="1010" rx="880" ry="690" fill="#070707" stroke="url(#rim)" stroke-width="2.5" class="rimline"/>
+  <g fill="#E2C58F">
+    <circle class="dust" cx="140" cy="330" r="1.6"/><circle class="dust d2" cx="260" cy="340" r="1.1"/>
+    <circle class="dust d3" cx="420" cy="335" r="1.4"/><circle class="dust" cx="760" cy="345" r="1.2"/>
+    <circle class="dust d2" cx="900" cy="330" r="1.7"/><circle class="dust d3" cx="1060" cy="340" r="1.2"/>
+    <circle class="dust d3" cx="560" cy="350" r="1"/><circle class="dust d2" cx="1130" cy="345" r="1.4"/>
+  </g>
+  <!-- dot-matrix bowl -->
+  <g fill="#F4F1EA" transform="translate(96,96)">
+    <g opacity=".75"><circle cx="18" cy="0" r="4"/><circle cx="42" cy="8" r="4"/><circle cx="66" cy="0" r="4"/><circle cx="12" cy="20" r="4"/><circle cx="36" cy="28" r="4"/><circle cx="60" cy="20" r="4"/></g>
+    <g><circle cx="0" cy="52" r="5"/><circle cx="14" cy="52" r="5"/><circle cx="28" cy="52" r="5"/><circle cx="42" cy="52" r="5"/><circle cx="56" cy="52" r="5"/><circle cx="70" cy="52" r="5"/><circle cx="84" cy="52" r="5"/>
+       <circle cx="7" cy="66" r="5"/><circle cx="21" cy="66" r="5"/><circle cx="35" cy="66" r="5"/><circle cx="49" cy="66" r="5"/><circle cx="63" cy="66" r="5"/><circle cx="77" cy="66" r="5"/>
+       <circle cx="14" cy="80" r="5"/><circle cx="28" cy="80" r="5"/><circle cx="42" cy="80" r="5"/><circle cx="56" cy="80" r="5"/><circle cx="70" cy="80" r="5"/>
+       <circle cx="28" cy="94" r="5"/><circle cx="42" cy="94" r="5"/><circle cx="56" cy="94" r="5"/></g>
+  </g>
+  <text x="232" y="128" class="t" fill="#9A958C" font-size="17" letter-spacing="5">HELLO, I'M</text>
+  <text x="230" y="186" class="t" fill="#F4F1EA" font-size="54" font-weight="600" letter-spacing="1">mirandakaro</text>
+  <text x="232" y="228" class="t" fill="url(#gold)" font-size="22" letter-spacing="2">把 AI Agent 做成能照顾生活的小工具</text>
+  <g class="t" font-size="16" fill="#BDB7AC">
+    <rect x="232" y="256" width="236" height="36" rx="18" fill="none" stroke="#C9A46A" stroke-opacity=".45"/>
+    <text x="252" y="280" font-family="Menlo,Consolas,monospace" fill="#E2C58F">/recipe-video-cards</text>
+    <rect x="455" y="266" width="2" height="18" fill="#E2C58F" class="caret"/>
+    <text x="490" y="280">PhD Researcher · Agent Skills · Life Design</text>
+  </g>
+</svg>
