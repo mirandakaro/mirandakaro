@@ -35,7 +35,7 @@
 </tr>
 <tr>
 <td width="38%" align="center" valign="middle">
-<a href="https://github.com/mirandakaro/seasonal-meal-calendar"><img src="https://raw.githubusercontent.com/mirandakaro/seasonal-meal-calendar/main/docs/real-today.jpg" width="200" alt="seasonal-meal-calendar"></a>
+<a href="https://github.com/mirandakaro/seasonal-meal-calendar"><img src="https://raw.githubusercontent.com/mirandakaro/seasonal-meal-calendar/main/docs/phone-today.jpg" width="200" alt="seasonal-meal-calendar"></a>
 </td>
 <td width="62%" valign="middle">
 <h3>🌾 <a href="https://github.com/mirandakaro/seasonal-meal-calendar">seasonal-meal-calendar</a></h3>
