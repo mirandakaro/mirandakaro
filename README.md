@@ -19,19 +19,18 @@
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/mirandakaro/recipe-video-cards"><img src="assets/recipe-preview.png" width="260" alt="recipe-video-cards"></a>
-<h4>🍳 <a href="https://github.com/mirandakaro/recipe-video-cards">recipe-video-cards</a></h4>
-<sub>做饭视频 → 证据驱动的图解食谱卡<br>先取证 · 不编克数 · 生图后验图</sub>
-<br><br>
-<img src="https://img.shields.io/badge/Agent_Skill-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/MIT-111111?style=flat-square" alt="">
+<td width="38%" align="center" valign="middle">
+<a href="https://github.com/mirandakaro/recipe-video-cards"><img src="assets/recipe-preview.png" width="240" alt="recipe-video-cards"></a>
 </td>
-<td width="50%" align="center" valign="top">
-<a href="https://mirandakaro.github.io/"><img src="assets/sanfu-preview.png" width="260" alt="三伏四十日食历"></a>
-<h4>🌾 <a href="https://mirandakaro.github.io/">三伏四十日食历</a></h4>
-<sub>给家人做的 2026 三伏 40 天家常食谱<br>成品图 · 做法 · 热量 · 采购清单</sub>
+<td width="62%" valign="middle">
+<h3>🍳 <a href="https://github.com/mirandakaro/recipe-video-cards">recipe-video-cards</a></h3>
+把小红书 / 抖音 / B 站的做饭视频，变成一张照着就能做的图解食谱卡。
 <br><br>
-<img src="https://img.shields.io/badge/Static_Site-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Mobile_First-111111?style=flat-square" alt="">
+<b>先取证</b>：抽帧、OCR、转写、翻评论区食材表<br>
+<b>不编克数</b>：视频没给的用量，明确标「未标注」<br>
+<b>生图后验图</b>：逐项核对图上文字，不通过就重画
+<br><br>
+<img src="https://img.shields.io/badge/Agent_Skill-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Claude_Code-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Hermes-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/MIT-111111?style=flat-square" alt="">
 </td>
 </tr>
 </table>
