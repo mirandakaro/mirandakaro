@@ -33,6 +33,20 @@
 <img src="https://img.shields.io/badge/Agent_Skill-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Claude_Code-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Hermes-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/MIT-111111?style=flat-square" alt="">
 </td>
 </tr>
+<tr>
+<td width="38%" align="center" valign="middle">
+<a href="https://github.com/mirandakaro/seasonal-meal-calendar"><img src="https://raw.githubusercontent.com/mirandakaro/seasonal-meal-calendar/main/docs/screen-today.jpg" width="200" alt="seasonal-meal-calendar"></a>
+</td>
+<td width="62%" valign="middle">
+<h3>🌾 <a href="https://github.com/mirandakaro/seasonal-meal-calendar">seasonal-meal-calendar</a></h3>
+季候编辑部：按节气生成经过校验的家常食谱，一键出手机食谱网页。
+<br><br>
+<b>忌口零命中</b> · <b>菜单不重复</b> · <b>每步可照做</b><br>
+今日三餐、跟做模式、1/3/7 天采购卡、长辈大字模式
+<br><br>
+<img src="https://img.shields.io/badge/Agent_Skill-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/Python-111111?style=flat-square" alt=""> <img src="https://img.shields.io/badge/MIT-111111?style=flat-square" alt="">
+</td>
+</tr>
 </table>
 
 <br>
